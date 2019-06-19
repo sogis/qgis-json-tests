@@ -43,4 +43,4 @@ Sample Structure: any valid JSON structure can be used.
 
 Configuration hints: For longer structures be sure to check the "Multiline" checkbox in the "Text edit" widget configuration.
 
-
+TODO: add screenshot
