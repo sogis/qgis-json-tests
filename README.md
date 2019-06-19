@@ -38,9 +38,33 @@ see also [OPENGIS blog post "Visualize Postgres JSON data in QML widgets"](https
 Attention: by default, QGIS assigns the Key/Value widget to json/jsonb data types. If the JSON structure isn't compatible
 one will see an empty widget, even if JSON data exists.
 
-### Text plain widgets
+### Text Edit widget
 Sample Structure: any valid JSON structure can be used.
 
 Configuration hints: For longer structures be sure to check the "Multiline" checkbox in the "Text edit" widget configuration.
 
-TODO: add screenshot
+![Screenshot Text Edit widget](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_text-edit-widget_Multiline.png)
+
+### List widget
+Valid json structure for list widget:
+
+```javascript
+[
+ "Apples",
+ "Cherries",
+ "Bananas",
+ "Strawberries"
+]
+```
+
+### Key/Value widget
+Valid json structure for list widget:
+
+```javascript
+{
+ "Apples": 20,
+ "Cherries": 13,
+ "Bananas": 23,
+ "Strawberries": 7
+}
+```
