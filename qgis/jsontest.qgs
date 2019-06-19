@@ -1,0 +1,454 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.8-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="1"/>
+  <evaluateDefaultValues active="1"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>47</srsid>
+      <srid>2056</srid>
+      <authid>EPSG:2056</authid>
+      <description>CH1903+ / LV95</description>
+      <projectionacronym>somerc</projectionacronym>
+      <ellipsoidacronym>bessel</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="dbname='test' host=localhost port=5432 user='postgres' sslmode=disable srid=2056 type=Point checkPrimaryKeyUnicity='0' table=&quot;test&quot;.&quot;test_json&quot; (geom) sql=" checked="Qt::Checked" id="test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc" expanded="1" providerKey="postgres" name="test_json">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" unit="1" mode="2" type="1" tolerance="12" enabled="0">
+    <individual-layer-settings>
+      <layer-setting units="1" id="test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc" type="1" tolerance="12" enabled="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>2700199.69772549066692591</xmin>
+      <ymin>1239720.33359220437705517</ymin>
+      <xmax>2700275.91733379755169153</xmax>
+      <ymax>1239766.87991789262741804</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>47</srsid>
+        <srid>2056</srid>
+        <authid>EPSG:2056</authid>
+        <description>CH1903+ / LV95</description>
+        <projectionacronym>somerc</projectionacronym>
+        <ellipsoidacronym>bessel</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" showFeatureCount="0" open="true" checked="Qt::Checked" name="test_json">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer labelsEnabled="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" simplifyDrawingTol="1" maxScale="0" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" geometry="Point" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="vector" readOnly="0" refreshOnNotifyMessage="" simplifyDrawingHints="0" simplifyAlgorithm="0" minScale="1e+8">
+      <extent>
+        <xmin>2700211.48618212016299367</xmin>
+        <ymin>1239730.02839417988434434</ymin>
+        <xmax>2700243.43388747982680798</xmax>
+        <ymax>1239756.05202171998098493</ymax>
+      </extent>
+      <id>test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc</id>
+      <datasource>dbname='test' host=localhost port=5432 user='postgres' sslmode=disable srid=2056 type=Point checkPrimaryKeyUnicity='0' table="test"."test_json" (geom) sql=</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>test_json</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>47</srsid>
+          <srid>2056</srid>
+          <authid>EPSG:2056</authid>
+          <description>CH1903+ / LV95</description>
+          <projectionacronym>somerc</projectionacronym>
+          <ellipsoidacronym>bessel</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=somerc +lat_0=46.95240555555556 +lon_0=7.439583333333333 +k_0=1 +x_0=2600000 +y_0=1200000 +ellps=bessel +towgs84=674.374,15.056,405.346,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>47</srsid>
+            <srid>2056</srid>
+            <authid>EPSG:2056</authid>
+            <description>CH1903+ / LV95</description>
+            <projectionacronym>somerc</projectionacronym>
+            <ellipsoidacronym>bessel</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" minz="0" miny="0" maxy="0" dimensions="2" minx="0" maxz="0" crs="EPSG:2056"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 type="singleSymbol" symbollevels="0" forceraster="0" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
+              <prop v="0" k="angle"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="circle" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="diameter" k="scale_method"/>
+              <prop v="2" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>gid</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory labelPlacementMethod="XHeight" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+8" opacity="1" width="15" penWidth="0" scaleBasedVisibility="0" scaleDependency="Area" backgroundAlpha="255" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" minimumSize="0" backgroundColor="#ffffff" rotationOffset="270" diagramOrientation="Up" minScaleDenominator="0" enabled="0" barWidth="5" sizeType="MM" height="15">
+          <fontProperties description="Noto Sans,10,-1,0,50,0,0,0,0,0,Regular" style="Regular"/>
+          <attribute field="" label="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" linePlacementFlags="18" priority="0" zIndex="0" obstacle="0" placement="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="gid">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="json_text">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="IsMultiline" value="true"/>
+                <Option type="bool" name="UseHtml" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="jsonb_text">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option type="bool" name="IsMultiline" value="true"/>
+                <Option type="bool" name="UseHtml" value="false"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="gid" name="" index="0"/>
+        <alias field="json_text" name="" index="1"/>
+        <alias field="jsonb_text" name="" index="2"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="gid" expression="" applyOnUpdate="0"/>
+        <default field="json_text" expression="" applyOnUpdate="0"/>
+        <default field="jsonb_text" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="gid" unique_strength="0" exp_strength="0" constraints="1" notnull_strength="1"/>
+        <constraint field="json_text" unique_strength="0" exp_strength="0" constraints="0" notnull_strength="0"/>
+        <constraint field="jsonb_text" unique_strength="0" exp_strength="0" constraints="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="gid" desc="" exp=""/>
+        <constraint field="json_text" desc="" exp=""/>
+        <constraint field="jsonb_text" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" type="field" name="gid" width="-1"/>
+          <column hidden="0" type="field" name="json_text" width="685"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column hidden="0" type="field" name="jsonb_text" width="649"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="gid"/>
+        <field editable="1" name="json_text"/>
+        <field editable="1" name="jsonb_text"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="gid"/>
+        <field labelOnTop="0" name="json_text"/>
+        <field labelOnTop="0" name="jsonb_text"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>gid</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc"/>
+  </layerorder>
+  <properties>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WFSTLayers>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMTSLayers>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+    </WMTSLayers>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <Measure>
+      <Ellipsoid type="QString">bessel</Ellipsoid>
+    </Measure>
+    <WFSUrl type="QString"></WFSUrl>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <SearchMethod type="int">0</SearchMethod>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+      <Opacity type="double">1</Opacity>
+      <Marker type="QString"></Marker>
+      <Line type="QString"></Line>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMTSJpegLayers>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+    </WMTSJpegLayers>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <WCSLayers type="QStringList"/>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSPngLayers>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Andreas Neumann</author>
+    <creation>2019-06-17T15:19:10</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
