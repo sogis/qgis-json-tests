@@ -82,3 +82,12 @@ Valid json structure for list widget:
 This is how it looks like in a list widget in form mode, regardless if the source data type is json or jsonb:
 
 ![Screenshot display of list widget in form mode](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_display-of-json-as-key-value-widget_in-form-mode.png)
+
+### Attribute Table View
+
+This is how the attribute table looks like for the different widget types: list and key/value entries are separated by kommas combined with a blank as separater, keys are separated from the values with a colon and a blank:
+
+![Screenshot of json data in table mode](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_json-data-in-attribute-table.png)
+
+Note that the height of the rows are not auto-sized and often need to be made a bit higher manually.
+
