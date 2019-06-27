@@ -74,7 +74,7 @@
         <ymax>1239756.05202171998098493</ymax>
       </extent>
       <id>test_json_85c9ccc5_1b55_4fa7_b39f_1a21596d1ebc</id>
-      <datasource>dbname='test' host=localhost port=5432 user='postgres' sslmode=disable srid=2056 type=Point checkPrimaryKeyUnicity='0' table="test"."test_json" (geom) sql=</datasource>
+      <datasource>service='test' srid=2056 type=Point checkPrimaryKeyUnicity='0' table="test"."test_json" (geom) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>

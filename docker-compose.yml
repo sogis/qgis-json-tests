@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  qgis-server:
+    image: "sogis/qgis-server-base:3.4"
+    environment:
+      QGIS_SERVER_PARALLEL_RENDERING: "true"
+      QGIS_SERVER_MAX_THREADS: 2
+      QGIS_FCGI_MAX_PROCESSES: 2
+      QGIS_SERVER_LOG_LEVEL: 0
+    volumes:
+      - ./qgis:/data:ro
+      - ./postgresql-serviceconf:/etc/postgresql-common:ro
+    ports:
+      - 80:80
+    depends_on:
+      - postgis
+  postgis:
+    image: "kartoza/postgis:11.0-2.5"
+    environment:
+      POSTGRES_USER: "qgis_server"
+      POSTGRES_PASS: "qgis_server"
+      POSTGRES_DBNAME: "jsontest"
+    volumes:
+      - ./sql/jsontest.sql:/docker-entrypoint-initdb.d/setup-db.sql
+    #ports:
+      #- 5434:5432
