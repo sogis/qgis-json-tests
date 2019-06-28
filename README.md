@@ -114,15 +114,15 @@ Remarks: displays as expected
 Remarks:
 Works ok, but room for improvements.
 
-Following proposal:
-* for text widgets: use <pre></pre> tag to preserver line breaks and display with a monospace-font
-* for list widget: use <ul><li></li></ul> structure
-* for key value widget: use <table> structure
+Proposal for improvements:
+* for text widgets: use &lt;pre&gt;&lt;/pre&gt; tag to preserver line breaks and display with a monospace-font
+* for list widget: use &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; structure
+* for key value widget: use &lt;table/&gt; structure
  
 ### GetFeatureInfo results with format "application/json"
 
 ![GetFeatureInfo results with format application/json](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_identify_results_WMS_format-feature.png)
  
 Remarks:
-doesn't display at all. Fixes pending
+doesn't display at all. [Fixes pending](https://github.com/qgis/QGIS/pull/30451)
 
