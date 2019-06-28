@@ -9,6 +9,7 @@ Testing Display of JSON data in QGIS Desktop and QGIS server
 - https://github.com/qgis/QGIS/pull/8223 (Testing the implementation from #7869 with GetFeatureInfo requests over QGIS Server.)
 
 ## Unit tests from OpenGIS
+- https://github.com/qgis/QGIS/pull/8223 - in particular https://github.com/signedav/QGIS/blob/0a2689d94e64ba28aac958ab119b686ff36b19ef/tests/src/python/test_qgsserver_wms_getfeatureinfo.py see def testGetFeatureInfoPostgresTypes()
 - 
 
 ## Remarks
