@@ -91,3 +91,38 @@ This is how the attribute table looks like for the different widget types: list 
 
 Note that the height of the rows are not auto-sized and often need to be made a bit higher manually.
 
+## Display of JSON Data in the combo QGIS Server and Desktop
+
+To test whether raw json/jsonb data is supported there is a Postgis/QGIS Server test environment that you can start with:
+
+```
+docker-compose up
+```
+
+in the root of this repository.
+
+### GetFeatureInfo results with format "text/plain"
+
+![GetFeatureInfo results with format text/plain](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_identify_results_WMS_format-text.png)
+
+Remarks: displays as expected
+
+### GetFeatureInfo results with format "text/html"
+
+![GetFeatureInfo results with format text/html](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_identify_results_WMS_format-html.png)
+
+Remarks:
+Works ok, but room for improvements.
+
+Following proposal:
+* for text widgets: use <pre></pre> tag to preserver line breaks and display with a monospace-font
+* for list widget: use <ul><li></li></ul> structure
+* for key value widget: use <table> structure
+ 
+### GetFeatureInfo results with format "application/json"
+
+![GetFeatureInfo results with format application/json](https://raw.githubusercontent.com/andreasneumann/qgis-json-tests/master/screenshots/qgis_identify_results_WMS_format-feature.png)
+ 
+Remarks:
+doesn't display at all. Fixes pending
+
